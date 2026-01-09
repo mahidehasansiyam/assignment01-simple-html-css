@@ -95,3 +95,66 @@ section.banner{
   color: #ffffff;
   border: 1px solid #ffffff;
 }
+.notes{
+  width: 80%;
+  margin: 0 auto;
+}
+.notes .text h2{
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 50px;
+  font-size: 48px;
+  font-weight: bold;
+}
+.notes .text p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 44px;
+}
+
+.notes .card-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  
+}
+.notes .card-container .card{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 300px;
+  padding: 24px;
+ 
+}
+.notes .card-container .card-image{
+  background-color: #F95555;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+
+}
+.notes .card-container .card-image img{
+  /* padding: 5px auto ; */
+  width: 32px;
+  height: 32px;
+  margin-top: 12px;
+  
+}
+
+.notes .card-container .card-content h3{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.notes .card-container .card-content p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  color: #627382;
+}
