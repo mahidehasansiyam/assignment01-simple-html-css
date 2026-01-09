@@ -40,9 +40,9 @@ button {
 }
 section.banner {
   height: 675px;
-  background-image: url(./assets/hero-bg.png);
-  background-repeat: no-repeat;
+  background: linear-gradient(rgba(0,0,0,0.5)), url(./assets/hero-bg.png);
   background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
