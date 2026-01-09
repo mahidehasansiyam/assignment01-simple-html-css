@@ -40,7 +40,7 @@ button {
 }
 section.banner {
   height: 675px;
-  background: linear-gradient(rgba(0,0,0,0.5)), url(./assets/hero-bg.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.5)), url(./assets/hero-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -82,7 +82,7 @@ section.banner {
   border-radius: 4px;
   padding: 16px;
 }
-.banner button i{
+.banner button i {
   margin-left: 8px;
 }
 .banner button.white {
@@ -193,7 +193,7 @@ section.banner {
   margin-bottom: 16px;
   line-height: 16px;
 }
-.brain .text p i{
+.brain .text p i {
   color: #30b868;
   margin-right: 8px;
 }
@@ -204,8 +204,14 @@ section.banner {
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background-color: #30B868; */
+  background-color: rgba(247, 246, 242, 1);
   margin: 0 120px 120px 120px;
+  padding: 40px 80px;
+  border-radius: 15px;
+}
+.early-access:hover {
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
 }
 .early-access h2 {
   font-size: 48px;
@@ -227,9 +233,8 @@ section.banner {
 }
 .early-access button i {
   margin-left: 8px;
-  
 }
- 
+
 footer .content {
   display: flex;
   justify-content: space-between;
